@@ -17,10 +17,6 @@
   p + p { margin-top: .5rem; }
 }
 
-.Docs__attribute__table .Docs__note {
-  margin: 0;
-}
-
 .Docs__troubleshooting-note {
   @extend .Docs__note;
   border-left-color: orange;
