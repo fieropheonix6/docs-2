@@ -9,6 +9,30 @@
     color: #4B19D5;
     font-size: 1rem;
     font-weight: 700;
+
+    position: relative;
+
+    .callout__anchor {
+      text-decoration: none;
+
+      &:link,
+      &:visited,
+      &:hover,
+      &:active,
+      &:focus {
+        color: #4B19D5;
+      }
+    }
+
+    &:hover:before {
+      content: '#';
+      color: #666;
+      font-size: 1rem;
+      font-weight: normal;
+      margin-left: .5rem;
+      position: absolute;
+      left: -23px;
+    }
   }
 
   p { margin: 0; }
@@ -23,6 +47,16 @@
 
   .callout__title {
     color: #FFBA11;
+
+    .callout__anchor {
+      &:link,
+      &:visited,
+      &:hover,
+      &:active,
+      &:focus {
+        color: #FFBA11;
+      }
+    }
   }
 }
 
@@ -33,5 +67,16 @@
 
   .callout__title {
     color: #FFBA11;
+
+    .callout__anchor {
+      &:link,
+      &:visited,
+      &:hover,
+      &:active,
+      &:focus {
+        color: #FFBA11;
+      }
+    }
+
   }
 }
