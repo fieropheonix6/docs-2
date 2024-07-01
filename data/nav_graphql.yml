@@ -500,6 +500,8 @@
     path: apis/graphql/schemas/object/organizationedge
   - name: OrganizationEnforceTwoFactorAuthenticationForMembersUpdateMutationPayload
     path: apis/graphql/schemas/object/organizationenforcetwofactorauthenticationformembersupdatemutationpayload
+  - name: OrganizationImpersonationRequest
+    path: apis/graphql/schemas/object/organizationimpersonationrequest
   - name: OrganizationInvitation
     path: apis/graphql/schemas/object/organizationinvitation
   - name: OrganizationInvitationConnection
@@ -630,6 +632,8 @@
     path: apis/graphql/schemas/object/registryconnection
   - name: RegistryEdge
     path: apis/graphql/schemas/object/registryedge
+  - name: RegistryToken
+    path: apis/graphql/schemas/object/registrytoken
   - name: Repository
     path: apis/graphql/schemas/object/repository
   - name: RepositoryProviderBeanstalk
